@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background-color:lavender;
+}
+.photo{
+    
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:60%;
+      
+        
+}
+.heading{
+    text-align: center;
+    color: rgb(114, 182, 198);
+    text-decoration: underline;
+    font-style: oblique;
+
+}
+.footer{
+    color:darkviolet;
+    text-align: center;
+    font-size:18px;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  
+}
+.head{
+    color:rgb(225, 60, 145);
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.hello{
+    background-color: bisque;
+    font-size: 18px;
+    font-style:italic;
+    color: black;
+    left: 25rem;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    padding:20px;
+    
+}
+figcaption {
+    position: absolute;
+    bottom: 22rem;
+    margin: 2 rem;
+   
+    font-size: 1.4rem;
+    top:20rem;
+    left:23rem;
+    font-style: italic;
+   
+      
+      justify-content: center;
+      display: block;
+      width:100%;
+     
+      
+  
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    figcaption {
+        position: inherit;
+        bottom: inherit;
+       
+        margin: .25rem 0px;
+        font-size: inherit;
+       
+        
+    }
+  }
+  .h{
+    color: bisque;
+  }
+  .h1{
+    font-size: 18px;
+    font-style: oblique;
+    color: darkviolet;
+    text-align: center;
+  }
